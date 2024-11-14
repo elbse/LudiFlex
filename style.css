@@ -93,3 +93,14 @@ body{
 .nav-menu-btn{
     display: none;
 }
+
+.sample{
+    width: 130px;
+    height: 40px;
+    font-weight: 500;
+    background: rgba(255, 255, 255, 0.4);
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .3s ease;
+}
