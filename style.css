@@ -54,8 +54,6 @@ body{
     color: #fff;
     padding-bottom: 15px;
     margin: 0 25px;
-   
-
 }
 
 .link:hover, .active{
@@ -94,3 +92,25 @@ body{
     display: none;
 }
 
+.form-box{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 512px;
+    height: 420px;
+    overflow: hidden;
+    z-index: 2;
+}
+
+.register-container{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    transition: .5s ease-in-out;
+}
+
+.top span{
+    color: #fff;
+    margin-left: 5px;
+}
