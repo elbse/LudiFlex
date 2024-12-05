@@ -1,0 +1,38 @@
+TYPES OF VARIABLE 
+
+var - pwede ma change -Function scoped
+      Can be changed in scoped
+      Available before declaration
+
+let - magamit pag loops - pwede ma change pero after na sa declaration
+      Block scoped
+      Can be changed in scoped
+      Only available after declation 
+
+const - defualt
+        Block scoped , like let
+        Cannot be changed
+        Only available after declaratio 
+
+DATA TYPES IN JAVASCRIPT
+    Simple Type System
+
+    Number( Float )
+    String
+    Boolean
+    Date
+    Function 
+    Array
+    Object 
+
+    Special Types 
+
+    NaN
+    null
+    undefined
+
+Checking Type of Variables
+
+"typeof" operator - Returns a string of the data type primitive
+
+"instanceof" operator - Returns a Boolean of if a value mathers the data type
