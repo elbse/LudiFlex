@@ -1,5 +1,7 @@
+let age = 20; 
 
+console.log("Im currently " + age + " years old.");
 
-x = 1 
+const name = "Judiann";
 
-console.log('x');
+console.log(name + age);

@@ -36,3 +36,116 @@ Checking Type of Variables
 "typeof" operator - Returns a string of the data type primitive
 
 "instanceof" operator - Returns a Boolean of if a value mathers the data type
+
+What are functions? 
+A block of code that executes a routine task using a
+series of instruction
+
+Example 
+printThanks - prints one fixed message for all
+computePrice - returns customized result based on input 
+data provided for computation
+
+function printThanks(){
+      console.log("Thanks for shopping");
+      console.log("Discounts expire Dec 1!");
+}
+
+function computePrice(cost, discount){
+      let reduction = cost * discount;
+      console.log("You saved $" + reduction );
+      return cost-reduction;
+}
+
+Why are functions useful?
+
+READABILITY AND CONCISENESS
+Say a task takes 10 lines of code and is used
+5 times in your program 
+Reduce code size, make functionality clear
+
+MAINTAINABILITY
+Need to fix a bug in execution statements?
+Or change the execution code?
+Do this in one place (not 5 separate places)
+
+FUNCTION USAGE: Invocation
+
+Definition
+has{}, no semicolon 
+Is a blueprint for the steps that need to be taken to 
+execute the task 
+
+      function printHello( name ){
+            console.log("Hello " + name + "!");
+      }
+
+Invocation
+()operator, semicolon terminated
+Is a statement that executes function code 
+Parameters replaced with arguments (inputs)
+resulting in customized execution
+
+      printHello("World");
+
+Function Naming
+
+Like variable name conventions 
+Use aplhabets, numbers, $ and _
+No other special characters allowed
+
+function sayHello$() {
+
+}
+
+Function ".name" property
+Returns the name of the function 
+Returns "anonymous" for anonymous functions
+
+function sayHello(){
+
+}
+
+console.log(sayHello.name);
+
+FUNCTION PARAMETERS
+
+Are placeholders for input values
+Are oprional. Zero-parameter function exist!
+When invoked, parameters are replaced by data
+values (arguments) for actual function execution
+
+      function printThanks(){
+            console.log("Thanks for shopping);
+      }
+
+Argument type/number are not checked against definitions
+Missing values will be set to undefined!
+
+This can have unanticipated results if you don't 
+validate your arguments within the function.
+
+      function computerPrice(cost, discount){
+            console.log(cost," ", discount);
+            let reduction = cost*discount;
+            console.log(cost, discount, reduction);
+            return cost-reduction;
+      }
+
+      computePrice(100);
+
+FUNCTION RETURN 
+
+Exit point for functions
+
+The return statement is optional.
+There is an implicit return after the last
+statement defined within the {}
+
+Use return statement to return relevant
+output (results) to the invoker.
+Example: return true if the first argument is larger than the second;
+else return false.
+
+If no return statement is defined, the returned result is undefined.
+
