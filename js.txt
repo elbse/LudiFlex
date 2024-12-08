@@ -149,3 +149,27 @@ else return false.
 
 If no return statement is defined, the returned result is undefined.
 
+
+Backticks are a type of quotation mark used in JavaScript to define template literals, which are strings with enhanced features. They look like this: ` ``.
+
+Backticks allow you to:
+
+Insert variables and expressions directly into strings using ${}.
+Write multiline strings without needing escape characters.
+Use them just like regular quotes (' or "), but with added functionality.
+
+let name = "Sarah";
+let city = "Davao City";
+
+// Using backticks for template literals
+let message = `Hello, my name is ${name} and I live in ${city}.`;
+
+console.log(message); 
+// Output: Hello, my name is Sarah and I live in Davao City.
+
+let message = `This is line 1
+This is line 2`;
+console.log(message);
+// Output:
+// This is line 1
+// This is line 2

@@ -19,3 +19,12 @@ console.log(person["age"]);
 
 console.log(person.greet());
 
+let colors =["neutral tones", "pink", "white"];
+
+console.log(colors[0]);
+
+colors.push("black");
+console.log(colors);
+
+colors.pop();
+console.log(colors);
